@@ -1,0 +1,62 @@
+.timer_style_numbers {
+    border-style: ridge;
+	border-width: 2px;
+	border-color: #666666;
+	background: #222222;
+	padding: 2px 0px;
+	width: 55px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 28px;
+	font-weight: bold;
+	font-style: normal;
+	color: #FFFFFF;
+}
+
+.timer_style_title {
+	border: none;
+	padding: 0px;
+	width: 55px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	background: transparent;
+}
+
+#timer_style_table {
+	border: none;
+ 	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+
+#timer_style_table table {
+    border: 0px;
+    padding: 0px;
+}
+
+#timer_style_table th {
+    border: 0px;
+    padding: 0px;
+}
+
+#timer_style_table td {
+    border: 0px;
+    padding: 5px;
+}
+
+#timer_style_table tr {
+    border: 0px;
+    padding: 0px;
+}
+
+#timer_style_table table {
+	border: 0px;
+	width: auto;
+}
+
+#timer_style_div {
+	width: 100%;
+}

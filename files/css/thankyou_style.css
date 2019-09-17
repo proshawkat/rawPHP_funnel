@@ -1,0 +1,132 @@
+.main-wrapper{
+  		margin:20px;
+}
+.content_row{
+	width: 100%;
+		display: table;
+	box-sizing: border-box;
+		padding: 1.14286em;
+	position: relative;
+	zoom: 1;
+	box-shadow: 0 0 0 1px #d9d9d9;
+	margin-top: 1em;
+	border-radius: 4px;
+	background: #fff;
+	color: #737373;
+}
+.content_step_title{
+	margin: 0.125em 0 0.5em;
+}
+.content_row > h2 {		
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 1.28571em;
+	color: #333333;
+}
+.content_customer_info_col > h3 {		
+	color: #4d4d4d;
+	font-family: Helvetica Neue, sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    margin-bottom: 0.57143em;
+}
+.content_customer_info_col{
+	width:50%;
+	float:left;
+}
+.main-wrapper p{
+	margin: 0;
+	line-height: 1.5em;
+}
+.content_map{
+	height: 200px;
+    overflow: hidden;
+    z-index: 0;
+    margin-bottom: -13px;
+    border-radius: 4px 4px 0 0;
+
+	}
+	.content_map img{
+		width:100%;
+	}
+	.main-wrapper ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	}
+	.main-wrapper i{
+	vertical-align: middle;
+	margin: -0.1em 0.25em 0 0;
+	display: inline-block;
+	width: 38px;
+	height: 24px;
+	transition: opacity 0.5s cubic-bezier(0.3, 0, 0, 1);
+	font-style: italic;
+	}
+	.content_footer_icon{
+	width: 18px;
+	height: 18px;
+	margin-right: 0.5em;		
+	font-style: italic;
+	background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+	}
+	.content_footer{
+		margin-top: 1.5em;
+	}
+	.main-wrapper svg{
+		margin-right: 0.75em;
+	stroke: #a26b25;
+	width: 50;
+    height: 50;
+    fill: none;
+	}
+	.content_header_heading_div{
+		vertical-align: top;
+		display:inline-block;
+		box-sizing: border-box;
+	}
+	.content_header_heading_div h2{
+		font-weight: normal;
+    margin: 0;
+    line-height: 1em;
+    color: #333333;
+    font-size: 1.57143em;
+    font-family: Helvetica Neue, sans-serif;
+	}
+	.content_header_heading_div span{
+	display: block;
+	margin-bottom: 0.25em;
+	color: #737373;
+
+	font-size: 14px;
+	font-family: Helvetica Neue, sans-serif;
+	line-height: 1.3em;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+@media only screen and (min-width: 750px) {  		
+	.footer_for_small_screen{
+		display:none;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.content_customer_info_col{
+		width:100%;
+		float:left;
+	}
+	.footer_for_big_screen{
+		display:none;
+	}
+	.footer_for_small_screen{
+		display:inline;
+	}
+	.footer_for_small_screen p{
+		margin-top: 10px;
+		text-align: center;
+	}
+}
